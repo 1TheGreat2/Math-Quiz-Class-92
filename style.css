@@ -1,0 +1,70 @@
+/* Import Bootstrap CSS */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+#loginPage, #gamePage {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type="text"], input[type="number"], button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#question {
+    font-size: 24px;
+    margin: 20px;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#scores {
+    margin-top: 20px;
+}
+
+/* Customizing colors */
+h1, h2 {
+    color: #007bff; /* Blue */
+}
+
+.btn-primary {
+    background-color: #ffc107; /* Yellow */
+    border-color: #ffc107; /* Yellow */
+    color: #212529; /* Black */
+}
+
+.btn-primary:hover {
+    background-color: #e0a800; /* Darker yellow */
+    border-color: #e0a800; /* Darker yellow */
+}
+
+.btn-success {
+    background-color: #28a745; /* Green */
+    border-color: #28a745; /* Green */
+    color: #fff; /* White */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green */
+    border-color: #218838; /* Darker green */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red */
+    border-color: #dc3545; /* Red */
+    color: #fff; /* White */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red */
+    border-color: #c82333; /* Darker red */
+}
